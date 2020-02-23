@@ -3,4 +3,4 @@ project(sty1 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(sty1  variablespace.c)
+add_executable(sty1 src/acllib.c src/acllib.h src/window.c)
